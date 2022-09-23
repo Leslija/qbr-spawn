@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.container {
+    font-family: 'Poppins', sans-serif;
+}
+
+.spawn-locations {
+    text-transform: uppercase;
+    position: absolute;
+    min-width: 30vh;
+    width: 80vh;
+    max-width: 100vh;
+    top: 17vh;
+    left: 50vh;
+    background-color: #161923f2;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
+    border-radius: .8vh;
+    padding: 30px;
+    cursor: default;
+    transition: 300ms;
+    border-radius: 0px;
+    color: white;
+    border: 2px solid #f5f5f5cf;
+}
+
+.spawn-information {
+    text-transform: uppercase;
+    position: absolute;
+    min-width: 80.1vh;
+    width: 30vh;
+    max-width: 100vh;
+    top: 68vh;
+    left: 50vh;
+    background-color: #161923f2;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
+    border-radius: .8vh;
+    padding: 39px;
+    cursor: default;
+    transition: 300ms;
+    border-radius: 0px;
+    color: white;
+    border: 2px solid #f5f5f5cf;
+}  
+
+
+.spawn-information-header > p {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    position: relative;
+    color: #ededed;
+    text-align: center;
+    font-size: 1.5vh;
+}
+
+.location {
+    width: 100%;
+    margin-bottom: 15px;
+    transition: 200ms;
+    border-radius: .3vh;
+    cursor: pointer;
+}
+
+.location > p {
+    position: relative;
+    color: #ededed;
+    text-align: center;
+    line-height: 4.5vh;
+    font-size: 1.8vh;
+}
+
+.v-btn.location:hover {
+    background-color: #434343a5!important;
+    transition: 300ms;
+}
+
+.selected {
+    background-color: #dc143c;
+}
+
+.submit-spawn {
+    background-color: rgb(47 134 67)!important;
+    width: 100%;
+    margin-top: 1.5vh;
+    transition: 0.2s;
+    border-radius: .3vh;
+    cursor: pointer;
+    border-radius: 6px;
+    color: white;
+    border: 2px solid #f5f5f5cf;
+}
+
+.submit-spawn > p {
+    position: relative;
+    color: white;
+    text-align: center;
+    line-height: 4.5vh;
+    font-size: 1.6vh;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.submit-spawn:hover {
+    transition: 0.2s;
+}
+
+#spawn-label {
+    color: #ededed;
+    font-weight: bold;
+}
+
+.loclabel {
+    width: auto;
+    height: 4vh;
+    transition: 0.2s;
+}
+
+.loclabel > p {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    position: relative;
+    color: #ededed;
+    text-align: center;
+    font-size: 1.5vh;
+}
+
+ul.b {
+    list-style-type: square;
+  }
